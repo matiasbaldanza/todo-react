@@ -20,6 +20,7 @@ export default function TodoForm({ handleNewTodo }) {
                     id="todo-input"
                     value={newTodo}
                     autoComplete="off"
+                    autoFocus
                     onChange={event => setNewTodo(event.target.value)}
                 />
             </label>
